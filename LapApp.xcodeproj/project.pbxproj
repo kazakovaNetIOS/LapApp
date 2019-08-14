@@ -12,6 +12,8 @@
 		FF987CA6230340F6001330EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF987CA4230340F6001330EC /* Main.storyboard */; };
 		FF987CA8230340F7001330EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF987CA7230340F7001330EC /* Assets.xcassets */; };
 		FF987CAB230340F7001330EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF987CA9230340F7001330EC /* LaunchScreen.storyboard */; };
+		FF987CB4230354F3001330EC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF987CB2230354F3001330EC /* Model.xcdatamodeld */; };
+		FF987CB62303E6EB001330EC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF987CB52303E6EB001330EC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FF987CA7230340F7001330EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF987CAA230340F7001330EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF987CAC230340F7001330EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF987CB3230354F3001330EC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		FF987CB52303E6EB001330EC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				FF987CA0230340F6001330EC /* AppDelegate.swift */,
+				FF987CB2230354F3001330EC /* Model.xcdatamodeld */,
 				FF987CA2230340F6001330EC /* ViewController.swift */,
+				FF987CB52303E6EB001330EC /* Extensions.swift */,
 				FF987CA4230340F6001330EC /* Main.storyboard */,
 				FF987CA7230340F7001330EC /* Assets.xcassets */,
 				FF987CA9230340F7001330EC /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				FF987CA3230340F6001330EC /* ViewController.swift in Sources */,
 				FF987CA1230340F6001330EC /* AppDelegate.swift in Sources */,
+				FF987CB4230354F3001330EC /* Model.xcdatamodeld in Sources */,
+				FF987CB62303E6EB001330EC /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF987CB2230354F3001330EC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF987CB3230354F3001330EC /* Model.xcdatamodel */,
+			);
+			currentVersion = FF987CB3230354F3001330EC /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FF987C95230340F6001330EC /* Project object */;
 }
